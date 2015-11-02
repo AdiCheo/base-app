@@ -1,4 +1,5 @@
 source "https://rubygems.org"
+ruby '2.1.1'
 
 gem "rails", "4.1.1"
 
@@ -21,6 +22,8 @@ gem "omniauth-facebook"
 gem "kaminari"
 gem "ransack"
 gem "dynamic_form"
+
+gem 'adminlte-rails'
 
 group :test, :development do
   gem "rspec-rails"
