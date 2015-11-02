@@ -24,6 +24,7 @@ gem "ransack"
 gem "dynamic_form"
 
 gem 'adminlte-rails'
+gem 'chart-js-rails'
 
 group :test, :development do
   gem "rspec-rails"
