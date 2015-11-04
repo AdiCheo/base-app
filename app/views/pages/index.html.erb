@@ -1,6 +1,6 @@
 <h1>Welcome <%= current_user.email if current_user %> to Build A Life</h1>
 
-<% if current_user.email.eql? "a@a.com" %>
+<% if current_user.nil? == false and current_user.email.eql? "a@a.com" %>
 
 <h2>Success - Howard Stevensen</h2>
   <!-- Small boxes (Stat box) -->
