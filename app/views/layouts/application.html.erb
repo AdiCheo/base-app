@@ -23,16 +23,19 @@
   </head>
 
   <body class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
 
     <%= render "layouts/application/header" %>
-
-    <div class="container-fluid">
-
-      <%= render "layouts/application/flash_messages" %>
-      <%= render "graph/index" %>
-
-      <%= yield %>
-
+    <%= render "layouts/application/sidebar" %>
+  
+      <div class="container-fluid">
+  
+        <%= render "layouts/application/flash_messages" %>
+        <%= render "graph/index" %>
+  
+        <%= yield %>
+  
+      </div>
     </div>
 
   </body>
